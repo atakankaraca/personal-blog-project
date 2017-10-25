@@ -1,0 +1,12 @@
+C:\Users\stajer\documents\visual studio 2015\Projects\BlogTemp\BlogTemp.Service\obj\Debug\BlogTemp.Service.csprojResolveAssemblyReference.cache
+C:\Users\stajer\documents\visual studio 2015\Projects\BlogTemp\BlogTemp.Service\bin\Debug\BlogTemp.Service.dll.config
+C:\Users\stajer\documents\visual studio 2015\Projects\BlogTemp\BlogTemp.Service\bin\Debug\BlogTemp.Service.dll
+C:\Users\stajer\documents\visual studio 2015\Projects\BlogTemp\BlogTemp.Service\bin\Debug\BlogTemp.Service.pdb
+C:\Users\stajer\documents\visual studio 2015\Projects\BlogTemp\BlogTemp.Service\bin\Debug\BlogTemp.Data.dll
+C:\Users\stajer\documents\visual studio 2015\Projects\BlogTemp\BlogTemp.Service\bin\Debug\EntityFramework.dll
+C:\Users\stajer\documents\visual studio 2015\Projects\BlogTemp\BlogTemp.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\stajer\documents\visual studio 2015\Projects\BlogTemp\BlogTemp.Service\bin\Debug\BlogTemp.Data.pdb
+C:\Users\stajer\documents\visual studio 2015\Projects\BlogTemp\BlogTemp.Service\bin\Debug\EntityFramework.xml
+C:\Users\stajer\documents\visual studio 2015\Projects\BlogTemp\BlogTemp.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\stajer\documents\visual studio 2015\Projects\BlogTemp\BlogTemp.Service\obj\Debug\BlogTemp.Service.dll
+C:\Users\stajer\documents\visual studio 2015\Projects\BlogTemp\BlogTemp.Service\obj\Debug\BlogTemp.Service.pdb

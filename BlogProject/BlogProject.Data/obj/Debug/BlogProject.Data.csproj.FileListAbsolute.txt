@@ -1,0 +1,10 @@
+C:\Users\stajer\Documents\Visual Studio 2015\Projects\BlogProject\BlogProject.Data\bin\Debug\BlogTemp.Data.dll.config
+C:\Users\stajer\Documents\Visual Studio 2015\Projects\BlogProject\BlogProject.Data\bin\Debug\BlogTemp.Data.dll
+C:\Users\stajer\Documents\Visual Studio 2015\Projects\BlogProject\BlogProject.Data\bin\Debug\BlogTemp.Data.pdb
+C:\Users\stajer\Documents\Visual Studio 2015\Projects\BlogProject\BlogProject.Data\bin\Debug\EntityFramework.dll
+C:\Users\stajer\Documents\Visual Studio 2015\Projects\BlogProject\BlogProject.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\stajer\Documents\Visual Studio 2015\Projects\BlogProject\BlogProject.Data\bin\Debug\EntityFramework.xml
+C:\Users\stajer\Documents\Visual Studio 2015\Projects\BlogProject\BlogProject.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\stajer\Documents\Visual Studio 2015\Projects\BlogProject\BlogProject.Data\obj\Debug\BlogProject.Data.csprojResolveAssemblyReference.cache
+C:\Users\stajer\Documents\Visual Studio 2015\Projects\BlogProject\BlogProject.Data\obj\Debug\BlogTemp.Data.dll
+C:\Users\stajer\Documents\Visual Studio 2015\Projects\BlogProject\BlogProject.Data\obj\Debug\BlogTemp.Data.pdb

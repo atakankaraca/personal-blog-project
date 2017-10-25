@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+using BlogTemp.Service;
+using BlogTemp.Data.Entity;
+using BlogProject.Application;
+using BlogProject.Application.Model.DTO;
+using BlogTemp.Models;
+
+namespace BlogTemp.Controllers
+{
+    public class HomeController : Controller
+    {
+        BlogAuth bAuth = new BlogAuth();
+        JsonFetcher fetcher = new JsonFetcher();
+
+        string domain = "http://localhost:61085";
+        string articles = "/api/article";
+
+        IDictionary<string, string> cookie;
+
+        public ActionResult Index()
+        {
+            bAuth.Login(out cookie);
+
+            var result = fetcher.GetJson(domain, articles);
+
+            return View();
+        }
+    }
+}

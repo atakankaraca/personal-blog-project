@@ -1,0 +1,29 @@
+﻿using BlogTemp.Data.Entity;
+using BlogTemp.Service;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Web.Http;
+
+namespace BlogProject.WebAPI.Controllers
+{
+    public class ArticleController : ApiController
+    {
+        Service<Article> repository = new Service<Article>();
+
+        public IEnumerable<Article> Get()
+        {
+            return repository.GetAll();
+        }
+
+        public IHttpActionResult Get(int id)
+        {
+            var article = repository.GetAll(x => x.ID == id);
+            if (article == null)
+                return NotFound();
+            return Ok(article);
+        }
+    }
+}

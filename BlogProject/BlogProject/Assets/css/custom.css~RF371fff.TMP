@@ -1,0 +1,407 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800');
+
+body {
+    font-family: 'Open Sans';
+    min-width: 60%;
+    margin: auto;
+    background-color: #f1f1f1;
+}
+
+/*Blog Navbar*/
+
+.navbar-header, .navbar-collapse {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-default {
+    background-color: #323232;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.navbar-header a {
+    padding-left: 370px;
+}
+
+.navbar-right {
+    padding-right: 356px;   
+}
+
+.navbar .navbar-collapse li a {
+    color: white;
+}
+
+    .navbar .navbar-collapse li a:hover {
+        color: #BBB;
+    }
+
+.navbar .navbar-brand {
+    color: white;
+}
+
+    .navbar .navbar-brand:hover {
+        color: #BBB;
+    }
+
+/*Blog Navbar*/
+
+/*Blog Head*/
+
+.intro {
+    height: 400px;
+}
+
+.blog-heading {
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+}
+
+.blog-subheading {
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.blog-small-hr {
+    width: 100px;
+    border-bottom: solid 5px;
+}
+
+/*Blog Head*/
+
+/*Blog Content*/
+
+/*Blog Content*/
+
+/*Post*/
+.image-background {
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+    bottom: 10%;
+    right: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.8;
+    height: 53px;
+}
+
+.image-over {
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    bottom: 11%;
+    right: 0;
+    left: 0;
+    font-size: 30px;
+    color: white;
+    z-index: 3;
+    padding-left: 40px;
+}
+
+
+
+/*Post*/
+.content {
+    margin-top: 25px;
+}
+
+.post-content {
+    padding: 20px 40px 30px 40px;
+}
+
+.post-header {
+    word-break: break-all;
+    font-size: 35px;
+}
+
+    .post-header a {
+        color: black;
+        font-weight: bold;
+    }
+
+        .post-header a:hover {
+            color: #6d6d6d;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+.panel-default {
+    border: none;
+}
+
+    .panel-default img {
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+
+.post-details {
+    margin-top: 5px;
+}
+
+.post-date {
+    float: left;
+    color: #6d6d6d;
+}
+
+.seperator {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.post-category {
+    float: left;
+    color: #6d6d6d;
+    font-weight: bold;
+}
+
+    .post-category a {
+        color: #6d6d6d;
+        font-weight: bold;
+    }
+
+        .post-category a:hover {
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+.post-birefly-text {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 200;
+    color: black;
+    line-height: 27px;
+    word-break: break-all;
+}
+
+.post-tags {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+/*Post*/
+
+.pagination li.active a {
+    background-color: #6d6d6d;
+    color: white;
+    border-color: #f2f2f2;
+}
+
+    .pagination li.active a:hover {
+        background-color: #6d6d6d;
+        color: white;
+        border-color: #f2f2f2;
+    }
+
+.pagination li a {
+    color: black;
+}
+
+    .pagination li a:hover {
+        color: black;
+    }
+
+/*Blog Content*/
+
+/*Right Side*/
+
+/*User Tag*/
+
+.user-cover-picture {
+    height: 150px;
+    width: 100%;
+    position: relative;
+}
+
+.user-profile-picture {
+    position: relative;
+}
+
+    .user-profile-picture img {
+        width: 120px;
+        height: 120px;
+        border-radius: 1000px;
+        border: 5px solid white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.user-name {
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.user-bio {
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    line-height: 24px;
+}
+
+
+/*User Tag*/
+
+/*Social Tag*/
+
+.social-tag {
+    padding: 15px;
+    text-align: center;
+}
+
+.social-icon-linkedin, .social-icon-twitter, .social-icon-github {
+    height: 45px;
+    width: 45px;
+    border-radius:50px;
+    display: inline-block;
+    background-color: #323232;
+    margin-right: 10px;
+}
+
+.social-tag .fa-linkedin {
+    margin-top: 9px;
+    margin-left:0px;
+    color: white;
+    font-size:27px;
+}
+
+.social-tag .fa-twitter {
+    margin-top: 10px;
+    margin-left:1px;
+    color: white;
+    font-size:27px;
+}
+
+.social-tag .fa-twitter:hover {
+    margin-top: 10px;
+    margin-left:1px;
+    color: white;
+    font-size:27px;
+}
+
+.social-tag .fa-github {
+    margin-top: 8px;
+    color: white;
+    font-size:29px;
+}
+
+    .social-icon-twitter:hover {
+        cursor: pointer;
+        background-color:#1da1f2;
+    }
+
+    .social-icon-linkedin:hover {
+        cursor: pointer;
+        background-color:#0077b5;
+    }
+
+    .social-icon-github:hover {
+        cursor: pointer;
+        background-color:#6e5494;
+    }
+
+/*Social Tag*/
+
+/*Right Side*/
+
+/*Category Tag*/
+.panel-default > .panel-heading {
+    background-image:none;
+    background-color:white;
+    height:50px;
+}
+
+.category-title {    
+    margin-top:4px;
+    font-weight:bold;
+}
+
+.category-tag > .panel-body ul li{
+    text-decoration:none;
+}
+
+@media(max-width:1349px) {
+    .navbar-header a {
+        padding-left: 10px;
+    }
+
+    .navbar-right {
+        padding-right: 0px;
+    }
+    /* Post */
+    .image-over {
+        font-size: 20px;
+    }
+
+    /* Post */
+}
+
+
+@media(max-width:991px) {
+    .user-tag {
+        display: none;
+    }
+
+    .social-tag {
+        display:none;
+    }
+}
+
+@media(max-width:575px) {
+
+    /*Blog Head*/
+    .blog-heading {
+        text-align: center;
+        margin-top: 130px;
+        color: white;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .blog-subheading {
+        font-size: 20px;
+    }
+    /*Blog Head*/
+
+    /* Post */
+    .image-over {
+        font-size: 15px;
+    }
+
+    .post-category {
+        font-size: 13px;
+    }
+
+    .post-date {
+        font-size: 13px;
+    }
+
+    .post-header {
+        font-size: 28px;
+    }
+
+    .post-birefly-text {
+        font-size: 14px;
+    }
+
+    .post-tags {
+        font-size: 14px;
+    }
+    /* Post */
+}
